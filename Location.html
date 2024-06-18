@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="lacationcss.css">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8728c1f79f.js" crossorigin="anonymous"></script>
+    <script src="location.js"></script>
+    <title>
+        Dream Home | Location
+    </title>
+    <style>
+        .slider-container {
+            position: relative;
+            width: 500px;
+            height: 400px;
+            overflow: hidden;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .slider {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .slider img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .slider-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 40px;
+            height: 40px;
+            background-color: #fff;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        .slider-btn-next {
+            right: 10px;
+        }
+
+        .slider-btn-prev {
+            left: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- //header//-->
+
+    <div class="header" style="background-color: black;">
+        <nav>
+            <img src="media/logo.png" class="logo">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="interiors.html">Interiors</a></li>
+                <li><a href="gallary.html">Gallery</a></li>
+                <li><a href="amenities.html">Life Style</a></li>
+                <li><a href="Location.html">Location</a></li>
+                <li><a href="contactus.php">Contact Us</a></li>
+                <li>
+                    <div class="dropdown">
+                        <button class="dropbtn">Other <i class="fa fa-caret-down"></i></button>
+                        <div class="dropdown-content">
+                            <a href="QA.php">FAQ</a>
+                            <a href="price.html">Price</a>
+                            <a href="availability.html">Availability</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="btn" onclick="window.location.href='register.php';">Sign Up</li>
+                <li class="btn" onclick="window.location.href='login.php';">Login</li>
+            </ul>
+        </nav>
+    </div>
+    <h1 text-align:center; font-color:white>Dream House<br>COLOMBO 07</h1>
+    <br>
+    <p font-size:200%>
+        64, WARD PLACE,
+        COLOMBO 07.<br><br>
+    </p>
+
+    <p class="paragraph-style">
+        The place where legacy has always been Colombo's well-known
+        streets bear the names of illustrious English governors. One such street has the name of the
+        British Governor Henry George Ward, Ward Place. Ward Place in Colombo 7 is one of the most prominent addresses
+        to live at both historically and currently.
+
+    </p>
+    <br><br>
+
+    <div class="slider-container">
+        <div class="slider">
+            <img src="img1.jpg" alt="Image 1">
+            <img src="img2.jpg" alt="Image 2">
+            <img src="img4.jpg" alt="Image 3">
+        </div>
+        <div class="slider-btn slider-btn-next">&#8250;</div>
+        <div class="slider-btn slider-btn-prev">&#8249;</div>
+        <p>A land where comfort, warmth and facilities were ever present</p>
+    </div>
+
+    <script src="location.js"></script>
+
+    <br><br><br><br>
+    <!--image of the map-->
+
+    <img src="locationimage.png" alt="location" width="100%">
+    <!-- linking google maps-->
+    <br>
+
+    <div style="display: flex; justify-content: center; margin: 10px;">
+        <a href="https://www.google.lk/maps/@6.9160085,79.8687548,17z?entry=ttu">
+
+            <button type="button" class=" button">
+                View on google maps
+            </button>
+        </a>
+    </div>
+    <br><br><br><br>
+
+    <!--  footer-->
+    <footer class="footer">
+        <div class="row">
+            <div class="footer-col">
+                <h4>
+                    Quick Links
+                </h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="interiors.html">Interiors</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <br><br>
+                <ul>
+                    <li><a href="lifestyle.html">Life Style</a></li>
+                    <li><a href="location.html">Location</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <br><br>
+                <ul>
+                    <li><a href="QA.php">FAQ</a></li>
+                    <li><a href="price.html">Price</a></li>
+                    <li><a href="availability.html">Availability</a></li>
+                </ul>
+            </div>
+            <div class="footer-col" style="width: 25%;">
+                <h4>
+                    Contact Us
+                </h4>
+                <ul>
+                    <li><i class="fa-solid fa-phone"></i> +11 250 8066</li>
+                    <li><i class="fa-solid fa-location-dot"></i> No 16, Galle Road, Colombo 4</li>
+                    <li><i class="fa-solid fa-at"></i> inquires@dreamhome.lk</li>
+                </ul>
+            </div>
+            <div class="footer-col" style="width: 25%;">
+                <h4>
+                    Enquiry
+                </h4>
+                <ul>
+                    <li>
+                        <p>Enter Email Here</p>
+                        <form action="" class="email_form">
+                            <input type="Email" class="txt" placeholder="Enter Email" name="">
+                            <input type="submit" class="btn" value="Submit" name="">
+
+                        </form>
+                    </li>
+                </ul>
+            </div>
+
+
+
+        </div>
+        <br><br><br><br>
+        <div class="social">
+            <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+
+
+            <div class="footer_bottom"><br>
+                <p>Copyright &copy;2023 Dream Home</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+
+</html>

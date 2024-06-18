@@ -1,0 +1,265 @@
+
+
+
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 125%;
+  background: linear-gradient(to bottom, #5a88c4, #c06bf0);
+}
+
+  .paragraph-style {
+    color: #f5f3fb;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+.button {
+  padding: 20px 60px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  background-color: rgb(43, 29, 132);
+  color: white;
+}
+
+.button:hover {
+  background-color: rgb(60, 23, 87);
+}
+  body{
+    background-color:rgb(98, 110, 148)
+  }
+
+  .slider-container{
+
+    width: 500px;
+    height: 400px;
+   
+  }
+
+  
+/*header and footer*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+.header
+{
+
+    height: 140px;
+    width: 100%;
+    padding: 0 8%;
+    position: relative;
+}
+
+nav{
+    font-size: 12px;
+    float: right;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 90%;
+    max-width: 900px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    padding-top: 50px;
+}
+
+.content h1{
+    font-size: 65px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.content h2{
+    font-size:50 px;
+    font-weight: 400;
+    margin-bottom: 40px;   
+}
+
+.logo{
+    width: 130px;
+}
+
+.nav-links{
+
+    padding: 28px 0;
+}
+
+.nav-links li{
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 0;
+    position: relative;
+}
+
+.nav-links li a::after{
+    content: '';
+    background: #0084ff;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+}
+
+.nav-links li a:hover:after{
+    width: 100%;
+}
+
+.btn{
+    background: #0084ff;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#myvideo{
+position: relative;
+width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.footer{
+    padding: 50px;
+    background-color: black;
+    color: #fff;
+
+}
+
+ul{
+    list-style: none;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col{
+    width: 10%;  
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px; 
+    position: relative;
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #0084ff;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li a{
+
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.footer-col ul li a:hover{
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer_bottom{
+    background: black;
+    height: 0px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 0px;
+  
+  }
+
+  .social{
+    margin: 20px ;
+    text-align: center;
+    position: relative;
+    bottom: 25px;
+    left: 0px;
+    right: 35px;
+  }
+  
+  .social a{
+    color: #fff;
+    margin-right: 25px;
+    font-size: 22px;
+    text-decoration: none;
+    transition: .3s linear;
+  }
+  
+  .social a:hover{
+    color: #2196f3;
+  }
+
+  .email_form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .dropbtn {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    padding: 8px;
+    position: absolute;
+    background-color: #747474;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #2196f3;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #ffffff;}

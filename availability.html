@@ -1,0 +1,264 @@
+<html>
+
+<head>
+  <title>
+  Dream Home | Availability
+  </title>
+  <link rel="stylesheet" type="text/css" href="availability.css">
+  <script src="https://kit.fontawesome.com/8728c1f79f.js" crossorigin="anonymous"></script>
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+</head>
+
+<body>
+
+  <div class="header" style="background-color: black;">
+    <nav>
+      <img src="media/logo.png" class="logo">
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="interiors.html">Interiors</a></li>
+        <li><a href="gallary.html">Gallery</a></li>
+        <li><a href="amenities.html">Life Style</a></li>
+        <li><a href="Location.html">Location</a></li>
+        <li><a href="contactus.php">Contact Us</a></li>
+        <li>
+          <div class="dropdown">
+            <button class="dropbtn">Other <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+              <a href="QA.php">FAQ</a>
+              <a href="price.html">Price</a>
+              <a href="availability.html">Availability</a>
+            </div>
+          </div>
+        </li>
+        <li class="btn" onclick="window.location.href='register.php';">Sign Up</li>
+        <li class="btn" onclick="window.location.href='login.php';">Login</li>
+      </ul>
+    </nav>
+  </div>
+  <div class="backbody">
+    <!--<script src="availability.js"></script>-->
+    <h1>Floor Plan</h1><br><br>
+
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+
+          <img src="floor1.jpg" alt="Image 1">
+        </div>
+        <div class="swiper-slide">
+          <img src="floor2.jpg" alt="Image 2">
+        </div>
+        <div class="swiper-slide">
+          <img src="floor3.png" alt="Image 3">
+        </div>
+        <div class="swiper-slide">
+          <img src="floor4.png" alt="Image 4">
+        </div>
+        <div class="swiper-slide">
+          <img src="floor5.jpg" alt="Image 5">
+        </div>
+        <div class="swiper-slide">
+          <img src="floor6.jpg" alt="Image 6">
+        </div>
+        <div class="swiper-slide">
+          <img src="floor7.png" alt="Image 7">
+        </div>
+        <div class="swiper-slide">
+          <script src="script.js"></script>
+          <img src="floor8.jpg" alt="Image 8">
+        </div>
+
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        loop: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+      });
+    </script>
+
+    <br><br><br><br>
+    <div style="display: flex; justify-content: center; flex-wrap: wrap;">
+      <div style="display: flex; justify-content: center; margin: 10px;">
+        <a href="floor1.jpg">
+          <button type="button" class=" button">
+            Type A
+          </button>
+        </a>
+      </div>
+
+      <div style="display: flex; justify-content: center; margin: 10px;">
+        <a href="floor2.jpg">
+          <button type="button" class=" button">
+            Type B
+          </button>
+        </a>
+      </div>
+
+      <div style="display: flex; justify-content: center; margin: 10px;">
+        <a href="floor6.jpg">
+          <button type="button" class=" button">
+            Type C
+          </button>
+        </a>
+      </div>
+
+      <div style="display: flex; justify-content: center; margin: 10px;">
+        <a href="floor7.png">
+          <button type="button" class=" button">
+            Type D
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <div style="display: flex; justify-content: center; flex-wrap: wrap;">
+      <div style="display: flex; justify-content: center; margin: 10px;">
+        <a href="floor3.png">
+          <button type="button" class=" button">
+            Type E
+          </button>
+        </a>
+      </div>
+
+      <div style="display: flex; justify-content: center; margin: 10px;">
+        <a href="floor4.png">
+          <button type="button" class=" button">
+            Type F
+          </button>
+        </a>
+      </div>
+
+      <div style="display: flex; justify-content: center; margin: 10px;">
+        <a href="floor8.jpg">
+          <button type="button" class=" button">
+            Type G
+          </button>
+        </a>
+      </div>
+
+      <div style="display: flex; justify-content: center; margin: 10px;">
+        <a href="floor5.jpg">
+          <button type="button" class=" button">
+            Type H
+          </button>
+        </a>
+      </div>
+      <br><br><br>
+
+      <div>
+        <h1>Privacy and Security</h1><br><br>
+
+        <img src="security.png" alt="Full-width image" class="full-width-image">
+        <br><br>
+        <p>
+        <ul>
+          <li>TO PROVIDE A DETACHED LIVING EXPERIENCE, ALL RESIDENCES WERE DESIGNED IN HARMONIOUS ISOLATION.</li>
+          <li>ACCESS CONTROLLED HIGH SPEED ELEVATORS</li>
+          <li>ALL OF OUR RESIDENCES ARE DESIGNED WITH REINFORCED CONCRETE
+            WALLS AND WITHOUT COLLINS TO PROVIDE THE BEST SPACE AVAILABLE INSIDE.</li>
+          <li>ALL THE PARTITION WALLS INSIDE THE APARTMENTS ARE CONCRETE WALLS OR BLOCK WALLS WHICH IS MORE RELIABLE
+            THAN
+            DRY WALLS IN OTHER SIMILAR TYPES OF APARTMENTS WHICH ENSURES BETTER INSULATION AGAINST SOUND AND HEAT WITHIN
+            THE ROOMS.</li>
+          <li>ALL OVER THE RESIDENCES, CAREFULLY PLACED LIGHT WELLS PROVIDE BETTER LIGHTING AND VENTILATION.</li>
+          <li>As opposed to MECHANICAL VENTILATION, ALL OF OUR BATHROOMS USE NATURAL VENTILATION.</li>
+        </ul>
+        </p>
+      </div>
+      <br> <br> <br><br><br>
+    </div>
+  </div>
+  <!--  footer-->
+  <footer class="footer">
+    <div class="row">
+      <div class="footer-col">
+        <h4>
+          Quick Links
+        </h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="aboutus.html">About Us</a></li>
+          <li><a href="interiors.html">Interiors</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <br><br>
+        <ul>
+          <li><a href="lifestyle.html">Life Style</a></li>
+          <li><a href="location.html">Location</a></li>
+          <li><a href="contactus.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <br><br>
+        <ul>
+          <li><a href="QA.php">FAQ</a></li>
+          <li><a href="price.html">Price</a></li>
+          <li><a href="availability.html">Availability</a></li>
+        </ul>
+      </div>
+      <div class="footer-col" style="width: 25%;">
+        <h4>
+          Contact Us
+        </h4>
+        <ul>
+          <li><i class="fa-solid fa-phone"></i> +11 250 8066</li>
+          <li><i class="fa-solid fa-location-dot"></i> No 16, Galle Road, Colombo 4</li>
+          <li><i class="fa-solid fa-at"></i> inquires@dreamhome.lk</li>
+        </ul>
+      </div>
+      <div class="footer-col" style="width: 25%;">
+        <h4>
+          Enquiry
+        </h4>
+        <ul>
+          <li>
+            <p>Enter Email Here</p>
+            <form action="" class="email_form">
+              <input type="Email" class="txt" placeholder="Enter Email" name="">
+              <input type="submit" class="btn" value="Submit" name="">
+
+            </form>
+          </li>
+        </ul>
+      </div>
+
+
+
+    </div>
+    <br><br><br><br>
+    <div class="social">
+      <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+      <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+
+
+      <div class="footer_bottom"><br>
+        <p>Copyright &copy;2023 Dream Home</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

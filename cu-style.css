@@ -1,0 +1,114 @@
+.cutext {
+  text-align: center;
+  color: #ffffff;
+
+}
+
+.cutitle {
+  text-align: center;
+  color: #0b071a;
+  padding-top: 25px;
+  font-family: Times New Roman;
+  font-size: 40px;
+
+}
+
+.cuformtitle {
+  color: #00008B;
+  text-align: center;
+  font-size: 20px;
+}
+
+.cuform {
+  width: 400px;
+  border: 1px solid #ccc;
+  padding: 25px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+
+.formlabel {
+  display: block;
+  margin-top: 10px;
+  color: #333;
+}
+
+#name {
+  width: 250px;
+}
+
+#ggname2 {
+  text-align: top;
+  width: 250px;
+  height: 75px;
+}
+
+
+.btn-submit {
+  background-color: #D30000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: black;
+}
+
+.cucintainer {
+  padding-left: 50px;
+  width: 100%;
+  padding-right: 50px;
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  padding-bottom: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.cu-under {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: #ccc;
+  align-items: center;
+  justify-content: center;
+  height: 100;
+  width: fit-content;
+
+}
+
+.cusocial {
+  font-size: 15px;
+  width: fit-content;
+}
+
+.cumap {
+
+  padding-top: 25px;
+  font-size: 15px;
+  width: fit-content;
+  height: fit-content;
+}
+
+.cumapunder {
+  width: fit-content;
+}
+
+.cu-back {
+  padding-top: 25px;
+  background-color: #061546;
+  background: linear-gradient(54deg, rgba(2, 0, 36, 1) 0%, rgba(100, 112, 181, 1) 56%, rgba(87, 148, 161, 1) 100%);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.cuformtextarea {
+  height: 100px;
+  resize: none;
+  width: 250px
+}

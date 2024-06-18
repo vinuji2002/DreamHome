@@ -1,0 +1,34 @@
+.usertableview {
+    background: linear-gradient(118deg, rgba(138, 138, 142, 1) 0%, rgba(238, 238, 245, 1) 100%);
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.adutitle {
+    font-size: 45px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.tablehead {
+    background-color: rgb(255, 255, 255);
+}
+
+.delebtn {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.createbtn {
+    background-color: #000ed4;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}

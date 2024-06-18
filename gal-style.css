@@ -1,0 +1,35 @@
+.galcontainer {
+    padding-top: 30px;
+    background: linear-gradient(122deg, rgba(2, 0, 36, 1) 0%, rgba(117, 34, 122, 1) 48%, rgba(0, 212, 255, 1) 100%);
+    justify-content: center;
+    display: grid;
+    gap: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 25px;
+}
+
+.galtitle {
+    text-align: center;
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.img {
+    padding: 5px;
+    padding-top: 25px;
+    width: 300px;
+}
+
+.galimg {
+    padding: 20px;
+    background-color: #bbb;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+.imgtitle {
+    font-size: 16px;
+    text-align: center;
+}
